@@ -41,4 +41,5 @@ public class UserServiceImpl implements UserService
                              .orElseThrow(() -> new ResourceNotFoundException("User with given id is not found on the server " + "having userid as: " + userId));
     }
 
+
 }

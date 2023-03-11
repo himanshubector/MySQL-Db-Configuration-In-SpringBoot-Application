@@ -1,5 +1,5 @@
 
---------------MySQL Configuration--------------
+--------------MySQL DB Configuration--------------
 
 
 MySQL Workbench download(GUI) and MySQL server download
@@ -25,3 +25,41 @@ MySQL Dialect -  org.hibernate.dialect.MySQL8Dialect
 
 
 spring.jpa.hibernate.ddl-auto = update
+
+
+
+To exit from psql client, type->  \q
+
+
+To enter into psql client, type->  psql
+
+
+switch database command ->  \c <database_name>
+
+
+list all tables present ->  \dt
+
+
+
+
+Create table command ----->
+
+CREATE TABLE employees (
+   id INT PRIMARY KEY,
+   name VARCHAR(50),
+   age INT,
+   salary DECIMAL(10,2)
+);
+
+
+
+drop table employees;
+
+
+delete from hotels where id='39b4795b-5a3d-4b37-aaaa-37b881a71b5e';
+
+
+
+
+
+

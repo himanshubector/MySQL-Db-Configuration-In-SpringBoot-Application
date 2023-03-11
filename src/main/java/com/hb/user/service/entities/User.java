@@ -2,10 +2,9 @@ package com.hb.user.service.entities;
 
 import lombok.*;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 
 @Getter
@@ -30,5 +29,7 @@ public class User
     @Column(name="ABOUT")
     private String about;
 
+    @Transient
+    private List<Rating> ratings = new ArrayList<>();
 
 }

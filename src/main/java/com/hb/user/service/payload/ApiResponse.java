@@ -15,5 +15,4 @@ public class ApiResponse
     private boolean success;
     private HttpStatus status;
 
-
 }
