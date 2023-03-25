@@ -11,11 +11,29 @@ Navigate to /usr/local/mysql-8.0.32/bin path in command prompt
 
 Type ->  ./mysql --user=root -p
 
+
+Refer ->  https://www.w3schools.com/sql/sql_create_db.asp
+
+
+show databases;
+
+
+show tables;
+
+
+create new database command -----------> create database <database_name>
+
+
 mysql Command to select the database ->  use <db_name>
+
+
 
 To clear the screen in mysql cmd ->  \! clear
 
+
+
 mysql Command to delete all records from the mysql table ->  delete from <table_name>
+
 
 
 MySQL driver class name -  com.mysql.cj.jdbc.Driver
