@@ -21,7 +21,30 @@ show databases;
 show tables;
 
 
+DROP TABLE table_name;
+
+
+ALTER TABLE - ADD Column *********
+
+ALTER TABLE Customers
+ADD Email varchar(255);
+
+
+
+ALTER TABLE - DROP COLUMN **********
+
+ALTER TABLE Customers
+DROP COLUMN Email;
+
+
+Refer -------->> https://www.w3schools.com/sql/sql_alter.asp
+
+
 create new database command -----------> create database <database_name>
+
+
+mysql command to show current selected database ----->  SELECT DATABASE();
+
 
 
 mysql Command to select the database ->  use <db_name>
