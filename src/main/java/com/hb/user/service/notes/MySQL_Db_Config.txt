@@ -1,6 +1,17 @@
 
 --------------MySQL DB Configuration--------------
 
+MySql server that has been installed will be visible under System Settings
+
+https://www.youtube.com/watch?v=2cvH0HRjZF8
+
+https://www.youtube.com/watch?v=BPSGG-d9FGQ
+
+https://dev.mysql.com/downloads/mysql/
+
+
+
+
 
 MySQL Workbench download(GUI) and MySQL server download
 
